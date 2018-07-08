@@ -25,7 +25,6 @@ float currentT;
 String resultSerialT;
 
 void setup() {
-  Wire.begin(4, 5);
   Serial.begin(9600);
   converterADST.setGain(GAIN_TWO);
   converterADST.begin();
