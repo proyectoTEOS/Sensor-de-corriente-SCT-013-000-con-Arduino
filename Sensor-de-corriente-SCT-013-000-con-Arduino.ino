@@ -11,7 +11,7 @@
 */
 
 #include <Wire.h>
-#include <Adafruit_ADS1015.h>
+#include <Adafruit_ADS1015.h> //https://github.com/adafruit/Adafruit_ADS1X15
 
 Adafruit_ADS1115 converterADST;
 
